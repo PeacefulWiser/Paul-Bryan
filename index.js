@@ -14,7 +14,9 @@ while(i < c.length){
     } else i+= 1; 
 } return jump;
 
-} function catAndMouse(x,y,z){
+} 
+
+function catAndMouse(x,y,z){
      let adistM = Math.abs(x-z)
       let bdistM = Math.abs(y-z)
     
